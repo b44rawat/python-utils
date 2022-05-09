@@ -1,4 +1,7 @@
-## 
+# Consul KV Migration utility
+
+Key-value store is one of the important feature provided by Consul which is used by multiple Engineers for multiple use-cases.
+Migration is one of the challenging task which user faces while using consul. So, We created python script will helps user to migrate key-value data from one consul server to another and also helps user to get information about migration by getting different types of output like in JSON & Table.
 
 ## prerequisite
 - Two consul servers
@@ -54,3 +57,8 @@ python3 consul.py  -s <SOURCE-ADDRESS> -d <DESTINATION-ADDRESS> -o table
 ```
  python3 consul.py  -s http://192.168.1.x:8500/v1/ -d http://192.168.0.x:8500/v1/ -o table
 ```
+
+## Upcoming
+
+- YAML Output
+- Token support
