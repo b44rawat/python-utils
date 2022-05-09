@@ -16,6 +16,28 @@
 ```
 python3 consul.py -h
 ```
+output:
+```
+Usage: python <NAME-OF-SCRIPT>.py ... [ -<OPTIONS> <VALUES>]
+
+Mendatory Option and arguments
+
+-s : Provide source consul URL
+     FORMAT: -s <VALUE>
+
+-d : Provide destination consul URL
+     FORMAT: -d <VALUE>
+
+-o : Provide database hostname
+
+     FORMAT: -o <VALUE>
+     SUPPORTED TAGS:
+         - json
+         - table
+
+AUTHOR: https://github.com/b44rawat
+```
+
 ## Format
 
 ```
