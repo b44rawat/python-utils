@@ -16,7 +16,7 @@ Migration is one of the challenging task which user faces while using consul. So
 
 ## Get help using -h tag
 
-```
+```shell
 python3 consul.py -h
 ```
 output:
@@ -43,7 +43,7 @@ AUTHOR: https://github.com/b44rawat
 
 ## Format
 
-```
+```shell
 python3 consul.py  -s <SOURCE-ADDRESS> -d <DESTINATION-ADDRESS> -o table
 ```
 
@@ -54,7 +54,7 @@ python3 consul.py  -s <SOURCE-ADDRESS> -d <DESTINATION-ADDRESS> -o table
 
 ## Example 
 
-```
+```shell
  python3 consul.py  -s http://192.168.1.x:8500/v1/ -d http://192.168.0.x:8500/v1/ -o table
 ```
 
@@ -62,7 +62,7 @@ python3 consul.py  -s <SOURCE-ADDRESS> -d <DESTINATION-ADDRESS> -o table
 
 - JSON
 
-```
+```json
 ["{ 'key': 'dir1/key3', 'value': 'value3', 'status': 'pass'}", "{ 'key': 'dir1/key4', 'value': 'value', 'status': 'pass'}", "{ 'key': 'dir1/subdir1/key6', 'value': 'value6', 'status': 'pass'}", "{ 'key': 'dir2/key7', 'value': 'value7', 'status': 'pass'}", "{ 'key': 'key1', 'value': 'value1', 'status': 'pass'}", "{ 'key': 'key2', 'value': 'value2', 'status': 'pass'}"]
 ```
 
